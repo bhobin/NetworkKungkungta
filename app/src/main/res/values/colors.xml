@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="light_gray">#FFEAEAEA</color>
+    <color name="dark_gray">#DDDDDD</color>
+    <color name="gray">#999999</color>
+
+    <color name="textPrimary">#424242</color>
+    <color name="textSecondary">#212121</color>
+    <color name="textGray">#bdbdbd</color>
+
+    <color name="textVersion">#5AC8FA</color>
+    <color name="fabBackground">#2F6178</color>
+    <color name="backgroundGray">#F5F5F5</color>
+
+    <color name="makingBackground">#373737</color>
+    <color name="whiteClicked">#EFEFEF</color>
+
+    <color name="hintColor">#CACACA</color>
+    <color name="timerColor">#D32F2F</color>
+    <color name="buttonColor">#2F6178</color>
+
+    <color name="blue_gray">#cfd8dc</color>
+    <color name="bright_gray">#BDBDBD</color>
+    <color name="button_gray">#ecebeb</color>
+    <color name="white">#ffffff</color>
+</resources>

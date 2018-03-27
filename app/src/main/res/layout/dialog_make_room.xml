@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/fabBackground"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/text_add_group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="방 만들기"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="방 번호 : "
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/roomNum"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_marginTop="30dp"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="확인"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="10dp"
+            android:background="@color/buttonColor"/>
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_marginTop="30dp"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="취소"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:background="@color/buttonColor"/>
+    </LinearLayout>
+
+</LinearLayout>
